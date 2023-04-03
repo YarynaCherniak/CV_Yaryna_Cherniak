@@ -1,0 +1,150 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    background: #f5f7fa;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 1319px;
+    background: var(--white);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+}
+
+aside {
+    background: #1e2939;
+    width: 370px;
+    margin: 40px;
+    color: var(--white);
+}
+
+.header-aside {
+    color: var(--white);
+    margin-top: 51px;
+}
+
+img {
+    width: 370px;
+    margin-top: 40px;
+}
+
+aside > div {
+    margin-left: 40px;
+}
+
+p > a {
+    color: var(--white);
+    font-weight: 400;
+    opacity: 0.5;
+    padding: 10px;
+    text-decoration-line: none;
+}
+
+.orange-bullet {
+    list-style: none;
+}
+
+.orange-bullet li::before {
+    content: "\2022";
+    color: #fb6d3a;
+    font-weight: bold;
+    display: inline-block;
+    width: 16px;
+    margin-left: -20px;
+    padding-right: 10px;
+}
+
+main {
+    margin: 102px 120px auto 44px;
+}
+
+section {
+    margin: 50px 0;
+}
+
+section > div {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    color: var(--black);
+    margin: 19px 0;
+}
+
+h2 {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 24px 0 0 0;
+}
+
+h3 {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 12px 0;
+}
+
+h4 {
+    color: var(--black);
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+}
+
+li {
+    margin-left: -20px;
+}
+
+a {
+    color: #595959;
+    font-weight: 400;
+    text-decoration-line: none;
+}
+
+.lang {
+    color: #595959;
+    font-weight: 400;
+    padding: 0 5px;
+}
+
+.dash {
+    width: 70px;
+    border-bottom: 1px dashed #a8a8a8;
+    display: inline-block;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.black {
+    color: var(--black);
+    padding: 0 5px;
+}
+
+.orange {
+    color: #fb6d3a;
+}
+
+.grey {
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+}
